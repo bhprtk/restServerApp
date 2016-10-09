@@ -5,8 +5,6 @@ const PORT = 3000;
 
 const server = httpServer.createServer((req, res) => {
 	const data = fs.readFile('./public');
-
-	
 	res.end(data);
 });
 
